@@ -23,3 +23,5 @@ pandarallel
 setuptools
 tqdm
 yellowbrick
+fastparquet
+lxml

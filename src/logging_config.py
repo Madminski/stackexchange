@@ -7,7 +7,7 @@ import sys
 def setup_logging():
     # Read the configuration file
     config = configparser.ConfigParser()
-    config.read("config.ini")
+    config.read("/mnt/d/stackexchange/config.ini")
 
     log_format = "%(asctime)s - %(filename)s - %(levelname)s - %(message)s"
     date_format = "%Y-%m-%d %H:%M:%S"

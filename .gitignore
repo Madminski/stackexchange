@@ -79,8 +79,9 @@ config.ini
 .ipynb_checkpoints/
 
 # exclude data from source control by default
-/data/
-
+/data/raw/file_*
+/data/*/chunk*
+/log/
 # Mac OS-specific storage files
 .DS_Store
 
